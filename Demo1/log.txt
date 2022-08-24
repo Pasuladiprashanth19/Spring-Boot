@@ -1,0 +1,23 @@
+2022-08-20 22:38:25.424  INFO 34128 --- [main] com.example.Demo1.Demo1ApplicationTests  : Starting Demo1ApplicationTests using Java 18.0.1.1 on DESKTOP-7H3QPO9 with PID 34128 (started by prashanth in C:\Users\prashanth\OneDrive\Desktop\ts\Demo1)
+2022-08-20 22:38:25.427  INFO 34128 --- [main] com.example.Demo1.Demo1ApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-08-20 22:38:26.673  INFO 34128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-08-20 22:38:26.686  INFO 34128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-08-20 22:38:26.763  INFO 34128 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.Demo1.Customer.CustomerRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-08-20 22:38:26.764  INFO 34128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 0 JDBC repository interfaces.
+2022-08-20 22:38:26.783  INFO 34128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-08-20 22:38:26.787  INFO 34128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-20 22:38:26.882  INFO 34128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interfaces.
+2022-08-20 22:38:27.927  INFO 34128 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-20 22:38:28.051  INFO 34128 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-08-20 22:38:28.432  INFO 34128 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-20 22:38:28.826  INFO 34128 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-20 22:38:29.266  INFO 34128 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-20 22:38:29.308  INFO 34128 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-08-20 22:38:30.397  INFO 34128 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-20 22:38:30.416  INFO 34128 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-20 22:38:31.745  WARN 34128 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-20 22:38:32.755  INFO 34128 --- [main] com.example.Demo1.Demo1ApplicationTests  : Started Demo1ApplicationTests in 8.213 seconds (JVM running for 12.736)
+2022-08-20 22:38:33.262  INFO 34128 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-20 22:38:33.263  INFO 34128 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-08-20 22:38:33.286  INFO 34128 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-08-20 22:38:33.294  INFO 34128 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
